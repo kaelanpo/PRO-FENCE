@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "FenceQuote",
+    "slug": "fencequote",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "fencequote",
+    "ios": {
+      "bundleIdentifier": "com.fencequote.app",
+      "supportsTablet": false,
+      "infoPlist": {
+        "UIBackgroundModes": [],
+        "NSLocationWhenInUseUsageDescription": "FenceQuote uses your location to apply accurate regional labor rates, material costs, and local sales tax for estimates."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0A0F"
+      },
+      "package": "com.fencequote.app",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": [
+      "expo-blur",
+      "expo-haptics"
+    ]
+  }
+}
